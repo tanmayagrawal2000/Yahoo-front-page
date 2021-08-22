@@ -1,0 +1,44 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="top"><p class="yahoo">Yahoo!</p></div>
+<div id="box"><p class="center">Sign up<br>
+Create a Yahoo email account</p>
+<form>
+<input type="text" id="name" name="fname" placeholder="Full Name" ><br><br>
+<input type="text" id="email" name="fname" placeholder="Email address" ><br><br>
+<input type="number" id="age" name="fname" placeholder="Age" ><br><br>
+<label for="fname">Date of Birth:- </label>
+<input type="date" id="date"><br><br>
+<button class="button" onclick="ok()">Submit</button>
+</form>
+<p id="name_error" class="error"></p>
+<p id="age_error" class="error"></p>
+<p id="email_error" class="error"></p>
+<br>
+</div>
+<script>
+function ok(){
+var name=document.getElementById("name").value;
+var email=document.getElementById("email").value;
+var date= document.getElementById("date").value;
+var age=document.getElementById("age").value;
+var originalemail=/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+var orignialname=/^[A-Za-z]+[0-9]$/i;
+var nametest=orignialname.test(name);
+var emailtest=originalemail.test(email);
+if(!nametest){
+document.getElementById("name_error").innerHTML="Error in name";
+}
+if(!emailtest){
+document.getElementById("email_error").innerHTML="Error in e-mail";
+}
+if(age<18){
+document.getElementById("age_error").innerHTML="Error in age";
+}
+}
+</script>
+</body>
+</html>

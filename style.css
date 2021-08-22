@@ -1,0 +1,64 @@
+#top{
+    background-color: white;
+    }
+    .yahoo{
+    color: #5a2986;
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 10px;
+    }
+    html{
+    background: #e6ecf2;
+    }
+    body{
+    margin:0;
+    }
+    #box {
+    margin-left:500px;
+    margin-right:500px;
+    padding: 10px;
+    box-shadow: 1px 2px 8px 1px #888888;
+    background: white;
+    }
+    .error{
+    color: red;
+    text-align: center;
+    }
+    .center{
+    text-align: center;
+    font-size: 25;
+    }
+    form{
+    text-align: center;
+    }
+    input[type=text] {
+    width: 40%;
+    padding: 5px 20px;
+    margin: 7px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid grey;
+    }
+    input[type=number] {
+    width: 40%;
+    padding: 5px 20px;
+    margin: 7px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid grey;
+    }
+    .button {
+    background-color: blue; /* Green */
+    border: none;
+    color: white;
+    padding:20px;
+    width: 200;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    }
