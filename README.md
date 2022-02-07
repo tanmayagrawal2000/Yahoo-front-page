@@ -4,4 +4,4 @@
 This is a clone of Yahoo front page
 
 ## Output
-![yahoo page](https://user-images.githubusercontent.com/53507833/152870159-f9a00724-2b87-44e0-8f78-196381bd86f1.JPG)
+![Animation](https://user-images.githubusercontent.com/53507833/152872872-ac8aa01d-136c-4cba-b579-048868190f46.gif)
